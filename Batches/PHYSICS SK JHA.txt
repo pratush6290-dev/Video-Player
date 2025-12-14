@@ -1,0 +1,68 @@
+मात्रक तथा विमा (Unit & Dimension) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/832064-1716177318/hls-ddcf06/720p/master-2892558.382809509.m3u8
+मात्रक तथा विमा (Unit & Dimension) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/835778-1716263537/hls-2f4b51/720p/master-6668407.785619923.m3u8
+मात्रक तथा विमा (Unit & Dimension) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/839404-1716350117/hls-21a151/720p/master-9359793.81236198.m3u8
+सदिश तथा अदिश (Vector and Scalar) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/358645-1708602240/hls-43c6ad/720p/master-3316167.008729096.m3u8
+सदिश तथा अदिश (Vector and Scalar) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/359270-1708688998/hls-29d873/720p/master-2571987.661037385.m3u8
+गति और वेग (Speed and Velocity) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/360388-1708946945/hls-fb69dc/720p/master-3479078.6186071723.m3u8
+गति और वेग (Speed and Velocity) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/361072-1709048835/hls-7c2c56/720p/master-8908340.808047133.m3u8
+गति और वेग (Speed and Velocity) class-3  :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/361700-1709120467/hls-6165c2/720p/master-4916666.473155751.m3u8
+प्रक्षेप्य गति (Projectile Motion) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/364411-1709552686/hls-8a6da8/720p/master-7386085.752692175.m3u8
+उत्तोलक (Lever) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/365185-1709639285/hls-51e0a2/720p/master-5349914.926739801.m3u8
+न्यूटन के गति नियम और घर्षण (Newton's Law of Motion & Friction) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/366465-1709811877/hls-5bee9e/720p/master-8348850.768747591.m3u8
+न्यूटन के गति नियम और घर्षण (Newton's Law of Motion & Friction) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/365769-1709726193/hls-92ad2e/720p/master-4840710.875243053.m3u8
+कार्य, शक्ति और ऊर्जा (Work, Power & Energy) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/367054-1709898488/hls-12f8ae/720p/master-6635838.258851272.m3u8
+कार्य, शक्ति और ऊर्जा (Work, Power & Energy) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/368191-1710158220/hls-a24dce/720p/master-2458812.6339728246.m3u8
+कार्य, शक्ति और ऊर्जा (Work, Power & Energy) class-3 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/368922-1710244236/hls-f22b7c/720p/master-130375.92586472524.m3u8
+कार्य, शक्ति और ऊर्जा (Work, Power & Energy) class-4 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/369598-1710330820/hls-a1aa58/720p/master-8307432.5002359515.m3u8
+कार्य, शक्ति और ऊर्जा (Work, Power & Energy) class-5 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/370886-1710503441/hls-94e0b1/720p/master-2364201.888854005.m3u8
+गुरुत्वाकर्षण (Gravitation) class- 1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/372013-1710762111/hls-a270d6/720p/master-1346395.9811232716.m3u8
+गुरुत्वाकर्षण (Gravitation) class- 2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/372654-1710848506/hls-99372f/720p/master-9935630.109101452.m3u8
+गुरुत्वाकर्षण (Gravitation) class- 3 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/373310-1710937063/hls-ee267f/720p/master-3875026.509042765.m3u8
+गुरुत्वाकर्षण (Gravitation) class- 4 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/374041-1711021123/hls-dd9791/720p/master-6964583.572257896.m3u8
+वृत्तीय गति और रेखीय गति (Circular Motion & Linear Motion) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/685912-1711973410/hls-f0959b/720p/master-2196862.850171044.m3u8
+वृत्तीय गति और रेखीय गति (Circular Motion & Linear Motion) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/688986-1712057655/hls-94e262/720p/master-5939937.196915194.m3u8
+आवर्त गति (Simple Harmonic Motion) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/692598-1712145134/hls-f77359/720p/master-7695774.607257566.m3u8
+आवर्त गति (Simple Harmonic Motion) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/696038-1712231476/hls-a6ba0d/720p/master-4707587.6059942385.m3u8
+पदार्थ के सामान्य गुण (General Properties of Matter) class-1 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/699769-1712318127/hls-dde9cc/720p/master-4462349.6479206.m3u8
+पदार्थ के सामान्य गुण (General Properties of Matter) class-2 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/706775-1712576952/hls-62036a/720p/master-8763695.851060979.m3u8
+पदार्थ के सामान्य गुण (General Properties of Matter) class-3 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/710155-1712663098/hls-80c138/720p/master-1543496.082199487.m3u8
+पदार्थ के सामान्य गुण (General Properties of Matter) class-4 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/713705-1712749759/hls-cefeb4/720p/master-3334106.3903027736.m3u8
+पदार्थ के सामान्य गुण (General Properties of Matter) class-5 :https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/716656-1712837594/hls-5c73d4/720p/master-3658272.780711143.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/719671-1712922205/hls-8fd0d3/720p/master-7955414.626431656.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/727057-1713183191/hls-4de95d/720p/master-6343139.244603506.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/730217-1713268348/hls-6b558c/720p/master-8984936.355969567.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-4:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/736103-1713440595/hls-8490ef/720p/master-8945560.650985714.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-5:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/739114-1713527194/hls-430330/720p/master-6160104.605667342.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-6:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/745920-1713786034/hls-061793/720p/master-7495975.872256731.m3u8
+ऊषा तथा वाप (Heat & Temperature) class-7:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/749020-1713872236/hls-05f1a8/720p/master-9436322.950931393.m3u8
+तरंग और ध्वनि (Way & Sound) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/752366-1713959362/hls-27a2e0/720p/master-6972041.603965782.m3u8
+तरंग और ध्वनि (Way & Sound) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/755787-1714045759/hls-8c6737/720p/master-1164752.5009277482.m3u8
+तरंग और ध्वनि (Way & Sound) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/758549-1714132171/hls-a4e641/720p/master-4101122.7627054956.m3u8
+तरंग और ध्वनि (Way & Sound) class-4:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/765545-1714390650/hls-f924fe/720p/master-5120838.671458805.m3u8
+तरंग और ध्वनि (Way & Sound) class-5:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/769311-1714477753/hls-85521c/720p/master-4596772.112964882.m3u8
+तरंग और ध्वनि (Way & Sound) class-6:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/777518-1714650742/hls-564cda/720p/master-518048.5838173654.m3u8
+तरंग और ध्वनि (Way & Sound) class-7:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/781184-1714736418/hls-7552cc/720p/master-6861788.622250962.m3u8
+प्रकाश (Light) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/788809-1714996159/hls-bcaeb4/720p/master-3686908.2702802867.m3u8
+प्रकाश (Light) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/792709-1715082560/hls-d9900a/720p/master-7056020.0629888885.m3u8
+प्रकाश (Light) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/796504-1715168958/hls-84e070/720p/master-5623267.266122891.m3u8
+प्रकाश (Light) class-4:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/800532-1715256424/hls-461212/720p/master-1036418.1710778086.m3u8
+प्रकाश (Light) class-5:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/803882-1715341408/hls-27957b/720p/master-5923354.26922812.m3u8
+प्रकाश (Light) class-6:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/811551-1715600417/hls-2d1bd0/720p/master-6562489.072093929.m3u8
+प्रकाश (Light) class-7:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/815178-1715686833/hls-2b1601/720p/master-2742530.325148742.m3u8
+प्रकाश (Light) class-8:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/818940-1715773764/hls-045ec0/720p/master-8670696.651730616.m3u8
+प्रकाश (Light) class-9:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/822841-1715860701/hls-bbe3e5/720p/master-8518564.597671894.m3u8
+विद्युत (Electricity) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/826276-1715946380/hls-7191d3/720p/master-6419310.305824078.m3u8
+विद्युत (Electricity) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/834544-1716206116/hls-2df04f/720p/master-507748.6265916509.m3u8
+विद्युत (Electricity) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/837873-1716291805/hls-c7e84f/720p/master-8937963.588730708.m3u8
+विद्युत (Electricity) class-4:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/845618-1716464952/hls-d088fd/720p/master-9350466.09664415.m3u8
+विद्युत (Electricity) class-5:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/856649-1716810201/hls-6b0177/720p/master-7322074.942413226.m3u8
+विद्युत (Electricity) class-6:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/860814-1716896243/hls-54bd05/720p/master-3460868.1210797057.m3u8
+चुम्बकत्व (Magnetisme) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/864502-1716983026/hls-30c8de/720p/master-2725786.630669105.m3u8
+चुम्बकत्व (Magnetisme) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/900403-1718019816/hls-71001e/720p/master-7584094.532706158.m3u8
+चुम्बकत्व (Magnetisme) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/908418-1718193146/hls-c4a91e/720p/master-4435094.277623719.m3u8
+चुम्बकत्व (Magnetisme) class-4:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/922296-1718624978/hls-113ed7/720p/master-5750337.237966554.m3u8
+चुम्बकत्व (Magnetisme) class-5:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/925397-1718711545/hls-69ad90/720p/master-3359711.7504274077.m3u8
+आधुनिक भौतिकी (Modern Physics) class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/928752-1718797586/hls-4ea844/720p/master-7853239.983150413.m3u8
+आधुनिक भौतिकी (Modern Physics) class-2:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/932518-1718884176/hls-607e89/720p/master-9008411.309599254.m3u8
+आधुनिक भौतिकी (Modern Physics) class-3:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/935792-1718970742/hls-431494/720p/master-4659039.619892069.m3u8
+Important Theory class-1:https://appx-transcoded-videos-mcdn.akamai.net.in/videos/aash-data/798804-1715238259/hls-f3e3fb/720p/master-60
