@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  <!-- Added interactive-widget to help with keyboard issues on mobile -->
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content" name="viewport" />
   <title>Gupta's Txt Player</title>
 
   <!-- Icons & Fonts -->
@@ -13,7 +14,7 @@
   <!-- Player Modules -->
   <script type="module" src="https://cdn.jsdelivr.net/npm/hls-video-element/+esm"></script>
   <script type="module" src="https://cdn.jsdelivr.net/npm/player.style/sutro/+esm"></script>
-   <script src="devtools-detector.js"></script>
+  <script src="devtools-detector.js"></script>
 
   <style>
     :root {
@@ -42,8 +43,8 @@
       font-family: 'Poppins', sans-serif;
       background: var(--bg-gradient);
       color: var(--text-white);
-      height: 100vh; 
-      height: 100dvh; 
+      /* Desktop Default: Fixed App Style */
+      height: 100vh;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -52,7 +53,6 @@
     /* --- Scrollbars --- */
     ::-webkit-scrollbar {
       width: 4px;
-      
     }
 
     ::-webkit-scrollbar-track {
@@ -79,7 +79,6 @@
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--glass-border);
       flex-shrink: 0;
-      
     }
 
     .brand {
@@ -91,20 +90,20 @@
       color: transparent;
       letter-spacing: 1px;
     }
-    
 
-    /* --- Layout Grid --- */
+
+    /* --- Layout Grid (Desktop) --- */
     .main-layout {
       flex: 1;
       display: grid;
       grid-template-columns: 1fr 350px;
       grid-template-rows: auto 1fr;
-      grid-template-areas: 
+      grid-template-areas:
         "input input"
         "video playlist";
       gap: 15px;
       padding: 15px;
-      overflow: hidden;
+      overflow: hidden; /* Desktop only */
     }
 
     /* --- Input Bar --- */
@@ -130,6 +129,7 @@
       cursor: pointer;
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 8px;
       transition: transform 0.2s;
     }
@@ -160,7 +160,8 @@
       min-width: 250px;
     }
 
-    .input-group input, .input-group select {
+    .input-group input,
+    .input-group select {
       width: 100%;
     }
 
@@ -173,7 +174,6 @@
       gap: 10px;
       overflow: hidden;
       justify-content: flex-start;
-      /* Center video vertically if needed */
     }
 
     .video-container {
@@ -186,11 +186,9 @@
       box-shadow: 0 0 20px rgba(120, 75, 160, 0.4);
       border: 1px solid rgba(255, 255, 255, 0.1);
       z-index: 1;
-      /* Important for touch responsiveness */
       touch-action: manipulation;
     }
 
-    /* Ensure Sutro fills container */
     media-theme-sutro {
       width: 100%;
       height: 100%;
@@ -198,7 +196,6 @@
       display: block;
     }
 
-    /* YouTube iframe styles */
     #yt-slot {
       position: absolute;
       top: 0;
@@ -207,13 +204,13 @@
       height: 100%;
       z-index: 5;
     }
-    
+
     #yt-frame {
-        width: 100%;
-        height: 100%;
+      width: 100%;
+      height: 100%;
     }
 
-    /* --- Ripple Overlay Styles (From File 1) --- */
+    /* Ripple Styles */
     .ripple-overlay {
       position: absolute;
       top: 0;
@@ -226,7 +223,7 @@
       font-size: 1.3rem;
       pointer-events: none;
       transition: opacity 0.2s, transform 0.2s;
-      z-index: 50; /* Above video */
+      z-index: 50;
       border-radius: 50%;
       transition: opacity 0.2s;
       transform: scale(0.5);
@@ -267,11 +264,12 @@
     }
 
     /* Meta Info */
-    /* Updated for integration into playlist area */
     .video-meta {
       padding: 15px;
       border-bottom: 1px solid var(--glass-border);
       flex-shrink: 0;
+      /* Allow content to wrap nicely */
+      word-wrap: break-word; 
     }
 
     .video-title {
@@ -279,6 +277,7 @@
       font-weight: 600;
       background: linear-gradient(to right, #fff, #ccc);
       -webkit-background-clip: text;
+      background-clip: text;
       color: transparent;
       margin: 0;
       line-height: 1.4;
@@ -306,13 +305,14 @@
 
     /* --- Playlist --- */
     .playlist-area {
+      grid-area: playlist;
       background: var(--glass-bg);
       border-radius: var(--radius);
       border: 1px solid var(--glass-border);
       display: flex;
       flex-direction: column;
       overflow: hidden;
-      height: 100%;
+      height: 100%; /* Full height on desktop */
     }
 
     .playlist-header {
@@ -360,6 +360,17 @@
       transition: all 0.2s;
       border-left: 3px solid transparent;
     }
+    
+    /* --- Footer --- */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: rgba(255,255,255,0.5);
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+
+
 
     .list-item:hover {
       background: rgba(255, 255, 255, 0.15);
@@ -384,28 +395,50 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+      max-width: 100%;
     }
 
-    /* --- Mobile Responsive --- */
+    /* --- MOBILE RESPONSIVE FIXES --- */
     @media (max-width: 900px) {
-      .main-layout {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto 1fr;
-        grid-template-areas: 
-          "input"
-          "video"
-          "playlist";
-        gap: 10px;
-        padding: 10px;
+      body {
+        /* Enable scrolling on Mobile */
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
       }
 
+      .main-layout {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        overflow: visible;
+        padding-bottom: 20px;
+      }
+
+      /* Stack Input bar vertically */
       .input-bar {
         flex-direction: column;
         align-items: stretch;
       }
+      
+      .input-group {
+        width: 100%;
+      }
 
+      .video-area {
+        width: 100%;
+        overflow: visible;
+      }
+
+      /* Fix Playlist visibility on Mobile */
       .playlist-area {
-        min-height: 0;
+        height: 600px; /* Fixed height so internal scroll works */
+        min-height: 60vh; /* Takes at least 60% of viewport height */
+        margin-top: 10px;
+      }
+      
+      .brand {
+          font-size: 1.2rem;
       }
     }
   </style>
@@ -434,8 +467,8 @@
         <select id="batchSelect" onchange="loadBatch()">
           <option disabled selected>Select Batch...</option>
         </select>
-        <button onclick="loadMyBatches()" style=" background:var(--accent-gradient); color:white;  border:none; border-radius:8px; width:auto; height:auto; cursor:pointer;">
-          <i class="fas fa-folder-open"></i> My Batches
+        <button onclick="loadMyBatches()" style=" background:var(--accent-gradient); color:white; border:none; border-radius:8px; width:auto; padding: 0 15px; cursor:pointer;">
+          <i class="fas fa-folder-open"></i>
         </button>
       </div>
 
@@ -452,7 +485,6 @@
 
     <!-- Video Section -->
     <div class="video-area">
-      <!-- Replaced standard video with HLS-Sutro Player & Ripples -->
       <div class="video-container" id="videoContainer">
         
         <!-- Ripple Overlays -->
@@ -468,16 +500,15 @@
           <hls-video id="player" slot="media" playsinline crossorigin="anonymous"></hls-video>
         </media-theme-sutro>
 
-        <!-- YouTube Holder (Hidden by default) -->
+        <!-- YouTube Holder -->
         <div id="yt-slot" style="display:none;"></div> 
       </div>
-      <!-- META WAS HERE, NOW MOVED TO PLAYLIST AREA -->
     </div>
 
     <!-- Playlist Section -->
     <div class="playlist-area">
       
-      <!-- Video Meta (MOVED HERE) -->
+      <!-- Video Meta (Now properly scrollable within playlist area or page) -->
       <div class="video-meta">
         <h2 class="video-title" id="vidTitle">Welcome to Gupta's Player</h2>
         <a id="ytExternal" href="#" target="_blank" style="display:none; color:#ff4757; margin-top:5px; text-decoration:none; font-size:0.9rem;">
@@ -496,18 +527,21 @@
       <div id="listVid" class="playlist-content">
         <div style="text-align:center; padding:20px; color:#777;">
           <i class="fas fa-video" style="font-size:2rem; margin-bottom:10px;"></i><br>
-         video not found
+         Load a file to start
         </div>
       </div>
       <div id="listPdf" class="playlist-content" style="display:none;">
         <div style="text-align:center; padding:20px; color:#777;">
           <i class="fas fa-file-pdf" style="font-size:2rem; margin-bottom:10px;"></i><br>
-          pdf not found
+          No PDFs
         </div>
       </div>
     </div>
 
   </div>
+ <footer>
+    Created with ❤️ by Gupta's 
+  </footer>
 
   <!-- Modal -->
   <div id="helpModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:999; justify-content:center; align-items:center;">
@@ -522,7 +556,6 @@
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
-  <!-- YouTube API -->
   <script src="https://www.youtube.com/iframe_api"></script>
 
   <script>
@@ -533,7 +566,7 @@
     let isYT = false;
 
     // --- Batches ---
-    const batches = ["PHYSICS SK JHA.txt", "CHEMISTRY SK JHA.txt", "Biology Foundation By Khan Sir.txt", "Reasoning Spl 38 Piyush Varshney Sir.txt", ];
+    const batches = ["PHYSICS SK JHA.txt", "CHEMISTRY SK JHA.txt", "Biology Foundation By Khan Sir.txt", "Reasoning Spl 38 Piyush Varshney Sir.txt"];
 
     window.onload = () => {
       const sel = document.getElementById("batchSelect");
@@ -550,6 +583,10 @@
         .then(r => r.ok ? r.text() : Promise.reject("File not found"))
         .then(parseData)
         .catch(e => alert(e));
+    }
+    
+    function loadMyBatches() {
+        alert("My Batches feature pending implementation.");
     }
 
     function handleFile(e) {
@@ -601,16 +638,21 @@
 
     function loadVideo(idx) {
       curIdx = idx;
-      // UI Update
       document.querySelectorAll('.list-item').forEach(e => e.classList.remove('active'));
       let el = document.getElementById(`item-${idx}`);
       if (el) {
         el.classList.add('active');
-        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        // Scroll list item into view within the playlist container
+        el.scrollIntoView({ behavior: "smooth", block: "nearest" });
       }
 
       let item = playlist[idx];
       startPlayer(item.url, item.title);
+      
+      // On mobile, scroll page to top so video is visible
+      if(window.innerWidth < 900) {
+          document.getElementById('videoContainer').scrollIntoView({ behavior: "smooth", block: "center" });
+      }
     }
 
     function playDirect() {
@@ -626,14 +668,12 @@
       const ytSlot = document.getElementById('yt-slot');
       const ytExternal = document.getElementById('ytExternal');
 
-      // Decrypt
       if (url.includes('*')) url = decrypt(url);
 
       if (url.includes('youtube') || url.includes('youtu.be')) {
-        // --- YouTube Mode ---
         isYT = true;
-        sutroTheme.style.display = 'none'; // Hide HLS player
-        ytSlot.style.display = 'block';    // Show YouTube container
+        sutroTheme.style.display = 'none'; 
+        ytSlot.style.display = 'block';
 
         let vidId = url.match(/(?:youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/)[1];
         ytExternal.href = `https://youtube.com/watch?v=${vidId}`;
@@ -648,53 +688,42 @@
                 playerVars: { autoplay: 1, playsinline: 1 }
             });
         }
-
       } else {
-        // --- HLS/MP4 Mode (Sutro) ---
         isYT = false;
-        sutroTheme.style.display = 'block'; // Show HLS player
-        ytSlot.style.display = 'none';      // Hide YouTube
+        sutroTheme.style.display = 'block';
+        ytSlot.style.display = 'none';
         ytExternal.style.display = 'none';
 
-        // Stop YouTube if playing
         if(ytPlayer && ytPlayer.pauseVideo) ytPlayer.pauseVideo();
-
-        // HLS-Video-Element handles everything automatically
         player.src = url;
         player.play();
       }
     }
 
-    // --- Double Tap / Ripple Logic (From File 1) ---
+    // --- Double Tap / Ripple Logic ---
     const container = document.getElementById('videoContainer');
     const rippleLeft = document.getElementById('rippleLeft');
     const rippleRight = document.getElementById('rippleRight');
-    const playerEl = document.getElementById("player"); // The hls-video element
+    const playerEl = document.getElementById("player");
 
     let lastTap = 0;
 
     container.addEventListener('click', (e) => {
-        // Only trigger on HLS/MP4 mode, not YouTube (iframe handles its own clicks usually, but good to check)
         if(isYT) return; 
 
         const currentTime = new Date().getTime();
         const tapLength = currentTime - lastTap;
 
-        // If double tap (less than 300ms between taps)
         if (tapLength < 300 && tapLength > 0) {
             e.preventDefault();
-
-            // Get container width and click position
             const rect = container.getBoundingClientRect();
             const x = e.clientX - rect.left; 
             const width = rect.width;
 
             if (x < width / 3) {
-                // Left Side (Rewind)
                 triggerRipple(rippleLeft);
                 if (playerEl.currentTime) playerEl.currentTime -= 20;
             } else if (x > (width / 3) * 2) {
-                // Right Side (Forward)
                 triggerRipple(rippleRight);
                 if (playerEl.currentTime) playerEl.currentTime += 20;
             }
@@ -704,7 +733,7 @@
 
     function triggerRipple(element) {
         element.classList.remove('ripple-active');
-        void element.offsetWidth; // trigger reflow
+        void element.offsetWidth;
         element.classList.add('ripple-active');
         setTimeout(() => {
             element.classList.remove('ripple-active');
